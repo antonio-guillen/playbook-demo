@@ -1,0 +1,21 @@
+- name: "Demo playbook"
+  hosts: all
+  tasks:
+    - name: "task 01"
+      debug:
+        msg: "Hello World!"
+    - name: "task 02"
+      debug:
+        msg: "Hello World!"
+    - name: "task 03"
+      debug:
+        msg: "Hello World!"
+    - name: "task 04"
+      debug:
+        msg: "Hello World!"
+    - name: "task 05"
+      debug:
+        msg: "Hello World!"
+    - name: "task 06"
+      debug:
+        msg: "Hello World!"
